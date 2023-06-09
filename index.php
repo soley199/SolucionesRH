@@ -31,7 +31,7 @@
 </head>
 
 <body>
-  <a href="https://api.whatsapp.com/send?phone=5521860349" class="btn-wsp" target="_blank"><i class="bi bi-whatsapp"></a>
+  
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -44,6 +44,7 @@
   </section><!-- End Hero -->
 
   <!-- ======= Header ======= -->
+  <a href="https://api.whatsapp.com/send?phone=5521860349" class="btn-wsp" target="_blank"><i class="bi bi-whatsapp"></a>
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
@@ -170,31 +171,31 @@
               <li class="nav-item">
                 <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
                   <h4>Reclutamiento y selección de personal</h4>
-                  <!-- <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p> -->
+                  <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
                   <h4>Investigación soociolaboral de Colaboradores y Candidatos </h4>
-                  <!-- <p>Voluptas vel esse repudiandae quo excepturi.</p> -->
+                  <p>Voluptas vel esse repudiandae quo excepturi.</p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
                   <h4>Assesment</h4>
-                  <!-- <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p> -->
+                  <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
                   <h4>Capacitación y desarrollo de Colaboradores</h4>
-                  <!-- <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p> -->
+                  <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-5">
                   <h4>Evaluaciones Poligráfas</h4>
-                  <!-- <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p> -->
+                  <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
                 </a>
               </li>
             </ul>
@@ -329,28 +330,28 @@
 
           <div class="col-lg-4 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="text" class="form-control" name="email" id="email" placeholder="Telefono" required>
-                </div>
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-aos="fade-left">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="nombre"  autocomplete="off" class="form-control" id="name" placeholder="Nombre" >
               </div>
-              <div class="form-group mt-3">
-                <input type="email" class="form-control" name="subject" id="subject" placeholder="Correo" required>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="number" class="form-control" name="telefono" autocomplete="off" id="number" placeholder="Telefono" >
               </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">ENVIANOS UN MENSAJE</button></div>
-            </form>
+            </div>
+            <div class="form-group mt-3">
+              <input type="email" class="form-control" name="email" autocomplete="off" id="email" placeholder="Correo" >
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje" ></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">ENVIANOS UN MENSAJE</button></div>
+          </form>
 
           </div>
           <div class="col-lg-4">
@@ -398,9 +399,9 @@
         </div> -->
 
         <div class="social-links">
-          <a href="https://www.tiktok.com/@solucionesencapitalhuman" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"></path></svg></a>
-          <a href="https://www.facebook.com/solucionesencapitalhumanoOT" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.tiktok.com/@solucionesencapitalhuman" target="_blank" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"></path></svg></a>
+          <a href="https://www.facebook.com/solucionesencapitalhumanoOT" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/solucionesencapitalhumano/?igshid=YmMyMTA2M2Y%3D" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
           <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
           <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
         </div>
